@@ -86,3 +86,16 @@ body {
     font-size: 14px;
     font-weight: 950;
 }
+
+/* Responsividade Tela mobile */
+
+@media (max-width: 375px) {
+    .conteudo__card {
+        width: 327px;
+        height: 501px;
+    }
+
+    .conteudo__img {
+        width: 279px;
+    }
+}

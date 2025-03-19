@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    /* Cores */
+    --cor-primaria: #F4D04E;
+    --cor-secundaria: #111111;
+    --cor-terciaria: #6B6B6B;
+    --cor-quaternaria: #FFFFFF;
+
+    /* Fontes */
+    --fonte: "Figtree", sans-serif;
+}

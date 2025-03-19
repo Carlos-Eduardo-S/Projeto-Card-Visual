@@ -37,3 +37,52 @@ body {
 .conteudo__apresentacao {
     padding: 0px 24px 24px 24px;
 }
+
+.conteudo__categoria {
+    color: var(--cor-secundaria);
+    font-size: 14px;
+    font-weight: 800;
+    padding: 4px 12px;
+    background-color: var(--cor-primaria);
+    border-radius: 4px;
+    width: 82px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.conteudo__data {
+    color: var(--cor-secundaria);
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.conteudo__link {
+    color: var(--cor-secundaria);
+    font-size: 24px;
+    font-weight: 950;
+    text-decoration: none;
+}
+
+.conteudo__link:hover {
+    color: var(--cor-primaria);
+}
+
+.conteudo__texto {
+    margin-top: 12px;
+    color: var(--cor-terciaria);
+    font-weight: 500;
+}
+
+.conteudo__autor {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding-left: 24px;
+}
+
+.autor__nome {
+    color: var(--cor-secundaria);
+    font-size: 14px;
+    font-weight: 950;
+}

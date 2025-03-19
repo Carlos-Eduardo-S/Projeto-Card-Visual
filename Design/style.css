@@ -11,3 +11,29 @@
     --fonte: "Figtree", sans-serif;
 }
 
+body {
+    background-color: var(--cor-primaria);
+    font-family: var(--fonte);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8% auto;
+}
+
+.conteudo__card {
+    width: 384px;
+    height: 522px;
+    border-radius: 20px;
+    background-color: var(--cor-quaternaria);
+    border: 1px solid var(--cor-secundaria);
+    box-shadow: 6px 6px 0px var(--cor-secundaria);
+}
+
+.conteudo__img {
+    border-radius: 10px;
+    margin: 24px;
+}
+
+.conteudo__apresentacao {
+    padding: 0px 24px 24px 24px;
+}
